@@ -25,7 +25,7 @@ def main():
     char_counts = get_num_of_each_character(book_text)
     char_counts = sort_dict_by_value(char_counts)
     for char, count in char_counts.items():
-        print(f"'{char}': {count}")
+        print(f"{char}: {count}")
 
     print("============= END ===============")
 
